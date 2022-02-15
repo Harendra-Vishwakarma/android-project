@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:viewBindingIgnore="true">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        tools:context=".SelectQuote">
+
+        <ScrollView
+            android:id="@+id/scroll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/quote1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="@font/roboto"
+                    android:text="@string/quote1"
+                    android:textColor="@color/purple_500"
+                    android:onClick="setListener"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/quote2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:onClick="setListener"
+                    android:fontFamily="@font/roboto"
+                    android:text="@string/quote2"
+                    android:textColor="@color/teal_700"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/quote3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="@font/roboto"
+                    android:onClick="setListener"
+                    android:text="@string/quote3"
+                    android:textColor="@color/purple_500"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/quote4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:onClick="setListener"
+                    android:fontFamily="@font/roboto"
+                    android:text="@string/quote4"
+                    android:textColor="@color/teal_700"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/quote5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="@font/roboto"
+                    android:onClick="setListener"
+                    android:text="@string/quote5"
+                    android:textColor="@color/purple_500"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/quote6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="@font/roboto"
+                    android:onClick="setListener"
+                    android:text="@string/quote6"
+                    android:textColor="@color/teal_700"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/quote7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:onClick="setListener"
+                    android:fontFamily="@font/roboto"
+                    android:text="@string/quote7"
+                    android:textColor="@color/purple_500"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/quote8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:onClick="setListener"
+                    android:fontFamily="@font/roboto"
+                    android:text="@string/quote18"
+                    android:textColor="@color/teal_700"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/quote9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:onClick="setListener"
+                    android:fontFamily="@font/roboto"
+                    android:text="@string/quote9"
+                    android:textColor="@color/purple_500"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/quote10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="@font/roboto"
+                    android:onClick="setListener"
+                    android:text="@string/quote10"
+                    android:textColor="@color/teal_700"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/quote11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="30dp"
+                    android:onClick="setListener"
+                    android:fontFamily="@font/roboto"
+                    android:text="@string/quote19"
+                    android:textColor="@color/purple_500"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+        </ScrollView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

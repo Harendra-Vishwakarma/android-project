@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Quotes</string>
+    <string name="text">“I really had a lot of dreams when I was a kid, and I think a great deal of that grew out of the fact that I had a chance to read a lot.”</string>
+    <string name="quote">Please follow Quotes</string>
+    <string name="quote1">“Success is a lousy teacher. It seduces smart people into thinking they can’t lose.”</string>
+    <string name="quote2">“Don’t compare yourself with anyone in this world… if you do so, you are insulting yourself.”</string>
+    <string name="quote3">“Your most unhappy customers are your greatest source of learning.”</string>
+    <string name="quote4">“Be nice to nerds. Chances are you’ll end up working for one.”</string>
+    <string name="quote5">“Life is not fair — get used to it!”</string>
+    <string name="quote7">“It’s fine to celebrate success, but it is more important to heed the lessons of failure.”</string>
+    <string name="quote8"> “To win big, you sometimes have to take big risks.”</string>
+    <string name="quote9">“I choose a lazy person to do a hard job. Because a lazy person will find an easy way to do it.”</string>
+    <string name="quote10">“If you think your teacher is tough, wait till you get a boss.”</string>
+    <string name="patience_is_a_key_element_of_success">"Patience is a key element of success."</string>
+    <string name="all_friends">All Friends</string>
+    <string name="share">Click Quotes To Share</string>
+    <string name="quote18">“To win big, you sometimes have to take big risks.“</string>
+    <string name="quote19">“if you cant make it good at least make it look good.“</string>
+    <string name="quote6">“patience is a key element of success“</string>
+</resources>
